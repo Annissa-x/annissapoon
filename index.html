@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Annissa Poon</title>
+  <style>
+    body {
+      position: relative;
+      overflow: hidden;
+      min-height: 100vh;
+    }
+    .flower {
+      position: fixed;
+      font-size: 5rem;
+      opacity: 0.15;
+      pointer-events: none;
+      z-index: -1;
+    }
+  </style>
+</head>
+<body>
+<div class="flower" id="bouncer">🌸</div>
+<script>
+  const flower = document.getElementById('bouncer');
+  let x = 100, y = 100;
+  let vx = 2, vy = 2;
+  function animate() {
+    x += vx;
+    y += vy;
+    if (x <= 0 || x >= window.innerWidth - 80) vx *= -1;
+    if (y <= 0 || y >= window.innerHeight - 80) vy *= -1;
+    flower.style.left = x + 'px';
+    flower.style.top = y + 'px';
+    requestAnimationFrame(animate);
+  }
+  animate();
+</script>
+<h1>Annissa Poon</h1> 
+<p>I believe the definition of happiness is one's feeling of contribution to their community. My goal isn't my own success. It's generating the most creativity with others in the most compressed timeline. Success without contribution is hollow. Every win should create more winners.</p>
+<blockquote>"The best way to find yourself is to lose yourself in the service of others." - Gandhi</blockquote>
+
+<h2>About Me</h2>
+
+<p>I build things to see people win. I opted out of HKU to build the world's largest social token backed by the most valuable NFT collection assembled - <a href="https://www.voguehk.com/zh/article/art-lifestyle/nft-collectors-interview/">WHALE with WhaleShark</a> at 19 where I <a href="https://www.youtube.com/watch?v=BIig-8hk_K4">interviewed Paris Hilton</a>, Urs Fischer, Binance, and more. I ran the crypto investment arm for the Ho Family Office, one of Asia's most prominent casino tycoons at 21. But one of the largest accomplishments that I feel that I've made is the ability to see artists grow from selling their art pieces for hundreds of dollars to many who now sell for hundreds of thousands of dollars, if not millions. I left the family office ultimately because I wanted to help the 99%.</p>
+
+<p>I love working hard and putting everything I have into something. I'm interested in crypto, material sciences, hardware, gaming incentives, history, and game theory.</p>
+
+<h3>Side Projects</h3>
+<p>Trying to be less distracted with side quests. I'm studying material sciences rn and also like hosting dinner parties on the occasion.</p>
+<ul>
+  <li><a href="https://www.instagram.com/fwob.ams/">Friends Without Benefits</a>: a 1,000 member community to connect folks in Amsterdam, worked with Holland Casino, Eatngo.nl and more</li>
+  <li><a href="https://annissa-eth.medium.com/introducing-adsum-1fbd9c7764e0">Adsum</a>: I tried connecting people seeking religious counseling with priests in real time. I got 20 priests onboarded in 2 weeks.</li>
+</ul>
+
+<h3>Essays</h3>
+<p>I try to write essays everywhere I travel so I remember the things I see and the people I meet pottering around:</p>
+<ul>
+  <li><a href="https://quip.com/VsogABrl63pC/Chiang-Mai-Thailand">Chiang Mai</a></li>
+  <li><a href="https://quip.com/dvnJArSr9Jjb/Shenzhen">Shenzhen</a></li>
+  <li><a href="https://quip.com/ozzSAQxCmFeO/Discussion-Club-72">Takamatsu</a></li>
+  <li><a href="https://quip.com/BprkAIRM3Dbf/Discussion-Club-132">Taipei</a></li>
+</ul>
+
+<h3>Some Press</h3>
+<ul>
+  <li><a href="https://www.forbes.com/sites/cathyhackl/2021/06/24/more-than-a-trend-entering-the-metaverse-will-become-a-necessity-for-brands/">Forbes</a>: Feature on WHALE community and digital asset leadership</li>
+  <li><a href="https://uk.finance.yahoo.com/news/consensus-2021-welcome-metaverse-153754419.html">Yahoo Finance</a>: Interview on social tokens and community economics</li>
+  <li><a href="https://www.youtube.com/@WhaleMembers">WHALE Podcast</a>: Regular host reaching 3,000+ viewers</li>
+  <li><a href="https://thedefiant.substack.com/p/the-defiants-guide-to-digital-art">The Defiant's Guide to Digital Art</a></li>
+  <li><a href="https://x.com/annlssa_/status/1407575326910124033/photo/1">Apple Daily Hong Kong Newspaper</a></li>
+  <li><a href="https://www.forbes.com/sites/cathyhackl/2021/06/24/more-than-a-trend-entering-the-metaverse-will-become-a-necessity-for-brands/">Consensus NFT curation</a></li>
+</ul>
+
+<h3>Socials</h3>
+<ul>
+  <li>Twitter: <a href="https://x.com/sasa_etc">@sasa_etc</a></li>
+  <li>LinkedIn: <a href="https://www.linkedin.com/in/annissapoon/">annissapoon</a></li>
+</ul>
+</body>
